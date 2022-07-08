@@ -1,0 +1,350 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400 ;
+	color: #626262;
+}
+
+/*hear start*/
+
+header
+{
+   padding: 25px 0;
+   /*border: 1px solid black;*/
+}
+.container{
+	width: 90%;
+/*	border: 1px solid black;*/
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+.logo
+{ 
+	margin-top: 10px;
+  width: 12%;
+  /*border: 1px solid black;*/
+  float: left;
+}
+.logo img
+{
+ width: 100%;
+}
+.menu
+{
+  width: 65%;
+/*  border: 1px solid black;*/
+  float: right;
+}
+.menu ul
+{
+   float : right;
+}
+.menu ul li
+{
+     float: left;
+
+     list-style: none;
+
+}
+
+.menu ul li a 
+{
+ text-decoration: none ;
+ margin: 0 60px;
+ display: inline-block;
+ color: #626262;
+ text-decoration: none ;
+ text-transform: uppercase;
+ border-bottom: 1px solid transparent;
+}
+
+.menu ul li:last-child a{
+   margin-right: 0;
+}
+
+.menu ul li a:hover
+{
+	border-bottom: 1px solid #626262;
+}
+/*header end*/
+/*banner start*/
+.banner
+{
+
+}
+.b_img
+{
+
+}
+.b_img img
+{
+	width: 100%;
+}
+/*banner end*/
+/*perfect start*/
+
+.perfect{
+	padding: 100px 0 60px;
+}
+.container2
+{
+	width: 80%;
+	/*border: 1px solid #626262;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+.p_content
+{
+
+}
+.c_light{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+
+}
+.c_title
+{    
+	margin: 20px 0 25px;
+	font-size: 30px;
+	font-weight: 400;
+
+}
+.c_text
+{
+    margin: 0;
+	line-height: 24px;
+}
+.c_m
+{
+	margin-bottom: 40px;
+}
+/*perfect end*/
+
+/*blog start*/
+.blog
+{
+ padding: 20px 0 60px;
+}
+
+.b_content
+{
+ overflow:hidden ;
+}
+.b_single
+{    margin-top: 80px;
+	float: left;
+	width: 46%;
+		
+}
+.b_single:nth-child(even)
+{
+	margin-left: 8%;
+}
+.s_img
+{
+  margin-bottom: 25px;
+}
+.s_img img
+{
+width: 100% ;
+}
+/*blog end*/
+/*news start*/
+.news
+{
+	background-color: #F0F0F0;
+	min-height: 240px;
+	padding: 70px 0;
+	margin-top: 25px;
+}
+.signup
+{
+text-align: center;
+}
+.s_h1{
+	color: black;
+	margin-top: 0;
+	margin-bottom: 70px;
+}
+.s_form
+{
+ width: 400px;
+ /*border: 1px solid black;*/
+ margin: 0 auto;
+position: relative;
+}
+.s_form input
+{
+    font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	font-weight: 400 ;
+	color: #626262;
+	width: 350px;
+	height: 45px;
+	border: none;
+	border-bottom: 1px solid #000000 ;
+	background-color: transparent;
+	padding-left: 5px;
+	padding-right: 45px;
+ }
+ .s_form input:focus
+ {
+ 	outline: 0;
+ }
+.s_form  button
+{   
+	position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    top: 15px;
+    right: 0;
+}
+.s_form button:focus
+{
+ 	outline: 0;
+ }
+.s_form button img{
+
+}
+/*news end*/
+/*blog2 start*/
+.blog2
+{
+	 padding: 20px 0 60px;
+}
+
+/*blog2 end*/
+/*	<!-- load start -->*/
+.load
+{
+ padding: 20px 0 60px;
+
+}
+.container3
+{ 
+	
+	
+    text-align: center;
+
+
+}
+.container3 button
+{
+
+    background-color: transparent;
+    padding: 15px 36px;
+    margin-top: 90px;
+    margin-bottom: 120px;
+    border: none;
+    border: 1px solid #626262;
+}
+.container3 button a{
+
+	text-decoration: none;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400 ;
+	color: #626262;
+
+}
+
+/*<!-- load end -->*/
+
+/*<!-- footer start -->*/
+footer
+{
+	 padding: 25px 0;
+	 background-color: #F0F0F0;
+	 
+     
+
+}
+/*.p_text
+{
+   width: 20%;
+   float: left;
+   
+   
+}
+.p_l
+{
+	float: left;
+}
+.p_r
+{
+	float: right;
+}
+*/
+.footer_menu
+{
+  width: 20%;
+/*  border: 1px solid black;*/
+  float: left;
+}
+.footer_menu ul
+{
+   float : left;
+   padding-inline-start: 0px;
+}
+.footer_menu ul li
+{
+     float: left;
+
+     list-style: none;
+
+}
+
+.footer_menu ul li a 
+{
+    text-decoration: none;
+    margin: 0 11px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    border-bottom: 1px solid transparent;
+}
+
+
+
+.footer_menu ul li:last-child a{
+   margin-right: 0;
+}
+
+.follow
+{  
+	width: 11%;
+    float: right;
+}
+.f_l{
+	    float: left;
+    width: 36%;
+}
+.f_l p
+{
+	    margin: 13px 0;
+    color: black;
+}
+.sl{
+	
+	float: right;
+    margin-top: 13px;
+}
+.sl button
+{
+	background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.ib{
+	padding-right: 0;
+}
